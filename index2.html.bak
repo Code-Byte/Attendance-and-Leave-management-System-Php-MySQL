@@ -1,0 +1,60 @@
+<!--html-->
+<!DOCTYPE html><html  lang="en">
+  <!--meta information-->
+  <head>
+    <meta  content="text/html; charset=utf-8"  http-equiv="content-type">
+    <meta  name="viewport"  content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link  rel="icon"  type="image/png"  href="images/logo.png">
+    <title>UCE Management Portal</title>
+    <link  rel="stylesheet"  href="css/normalize.css">
+    <link  rel="stylesheet"  href="css/skeleton.css">
+    <link  rel="stylesheet"  href="css/style.css">
+    <script  src="js/script.js"></script>
+    <link  rel="stylesheet"  href="http://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800"
+       type="text/css">
+    <link  rel="stylesheet"  href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  </head>
+  <!--content--> <body>
+    <!--header-->
+    <header>
+      <div  class="container">
+        <div  class="row">
+          <div  class="nine columns">
+            <h5  style="font-weight:bold;"><span  style="color:#35bcf2;"><i  class="fa fa-users"></i></span>
+              UCE Management Portal</h5>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--main wrapper-->
+    <div  class="wrapper">
+      <!--slogan-->
+      <h2  class="margin-top-max">Welcome!</h2>
+      <p  class="grey"></p>
+      <h3>UCE MANAGEMENT PORTAL </h3>
+      <p></p>
+      <!--boxes-->
+      <div  class="row">
+        <!--box 1-->
+        <div  class="columns five card green offset-by-one"  onclick="roleID=1; loginRedirect(roleID)">
+          <span  class="fa fa-user"></span> <br>
+          <h5><a  target="_top"  href="secure/Attendance/view/attendance_page.php">Submit Attendance<br>
+        </a></h5>
+        </div>
+        <!--box 2-->
+        <div  class="columns five card red"  onclick="roleID=2; loginRedirect(roleID)">
+          <span  class="fa fa-graduation-cap"></span> <br>
+          <h5><a  target="_top"  href="secure/Attendance/view/check.php">Check Attendance<br>
+        </a></h5>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <center>
+      <div  style="font-family:verdana;font-size:13px;"><br>
+        <a  href="www.google.com">Designed by JAI &amp; KARTIK</a></div>
+    </center>
+  </body>
+</html>
